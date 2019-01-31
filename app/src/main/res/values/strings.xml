@@ -11,4 +11,5 @@
     <string name="choose_radioDog">Собака</string>
     <string name="choose_radioCrow">Ворона</string>
     <string name="choose_layout_label">Кто украл?</string>
+    <string name="choose_button_send">Отправить</string>
 </resources>

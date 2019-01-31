@@ -21,9 +21,9 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onClickRadioChoose"
         android:layout_marginStart="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
@@ -32,25 +32,28 @@
             android:id="@+id/radioButtonCat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
+            android:onClick="onClickRadioChoose"
             android:layout_weight="1"
-            android:text="@string/choose_radioCat" />
+            android:text="@string/choose_radioCat"
+            android:textSize="24sp" />
 
         <RadioButton
             android:id="@+id/radioButtonDog"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
+            android:onClick="onClickRadioChoose"
             android:layout_weight="1"
-            android:text="@string/choose_radioDog" />
+            android:text="@string/choose_radioDog"
+            android:textSize="24sp" />
 
         <RadioButton
             android:id="@+id/radioButtonCrow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
+            android:onClick="onClickRadioChoose"
             android:layout_weight="1"
-            android:text="@string/choose_radioCrow" />
+            android:text="@string/choose_radioCrow"
+            android:textSize="24sp" />
     </RadioGroup>
 
 </android.support.constraint.ConstraintLayout>

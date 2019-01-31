@@ -7,7 +7,7 @@ import android.view.View;
 
 public class ChooseActivity extends AppCompatActivity {
 
-    public final static String THIEF = "com.number7.android_day5_sherlok";
+    public final static String THIEF = "com.number7.android_day5_sherlok.THIEF";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
