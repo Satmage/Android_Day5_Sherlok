@@ -6,4 +6,51 @@
     android:layout_height="match_parent"
     tools:context=".ChooseActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/choose_text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickRadioChoose"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/radioButtonCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:text="@string/choose_radioCat" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:text="@string/choose_radioDog" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:text="@string/choose_radioCrow" />
+    </RadioGroup>
+
 </android.support.constraint.ConstraintLayout>

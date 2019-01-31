@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">Android_Day5_Sherlok</string>
     <string name="main_image_description_sherlock">rf</string>
-    <string name="main_text_who">Кто украл кларнет?</string>
+    <string name="main_text_who">Кто украл кусочек сыра?</string>
     <string name="main_button_choose">Сделать выбор</string>
+    <string name="main_layout_label">Расследование Шерлока</string>
+
+
+    <string name="choose_text">Выберите правильный ответ:</string>
+    <string name="choose_radioCat">Кот</string>
+    <string name="choose_radioDog">Собака</string>
+    <string name="choose_radioCrow">Ворона</string>
+    <string name="choose_layout_label">Кто украл?</string>
 </resources>
